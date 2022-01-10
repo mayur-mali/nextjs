@@ -1,6 +1,5 @@
 {
-  "name": "nextjs",
-  "version": "1.0.0",
+  "name": "test-blog",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +8,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.1",
+    "@tailwindcss/line-clamp": "^0.3.0",
+    "next": "12.0.7",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.12"
   }
 }
